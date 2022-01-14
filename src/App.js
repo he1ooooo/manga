@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import { Routes, Route } from "react-router-dom"
+import Default from './pages/default';
+import Gamshig from './gamshig';
+import Gamshigpage from './pages/gamshigpage';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Routes>
+            <Route path="/" element={<Default />} />
+            <Route path="/gamshig" >
+                <Route path=":episode" element={<Gamshig />}/>
+            </ Route>
+            <Route path="/login" />
+            <Route path="/sign" />
+            <Route path="/gamshigpage" element={<Gamshigpage/> }/>
+        </Routes>
+    );
 }
-
 export default App;
