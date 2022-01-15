@@ -13,4 +13,3 @@ const Gamshig = () => {
     )
 }
 export default Gamshig;
-

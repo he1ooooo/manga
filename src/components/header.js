@@ -38,12 +38,12 @@ export function BasicSelect() {
         </Box>
     );
 }
-
-
 const Header = () => {
     return (
         <div className="headerbody">
+            <Link to="/">
             <img className="logo" src="http://zuragtnom.site/manga-logo.png" alt="logo" />
+            </Link> 
             <div className="headerclick">
                 <Link to="/manga" style={{
                     textDecoration: 'none',

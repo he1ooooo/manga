@@ -4,7 +4,6 @@ import Header from '../components/header';
 const Default = () => {
     return (
         <div>
-        <Header/>
         <Suuld/>
         </div>
     )
