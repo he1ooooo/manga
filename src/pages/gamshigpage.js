@@ -25,13 +25,13 @@ const Gamshigpage = () => {
                 {
                     Array(23).fill(0).map((a, angi,index)    => {
                         angi++;
-                        return <Link to={`/gamshig/0${angi < 10 ? `0${angi}` : angi}`}>
+                        return <Link to={`/gamshig/0${angi < 10 ? `0${angi}` : angi}`}style={{
+                            textDecoration: 'none',
+                            color: "gray",
+                        }}>
                             <div>Гамшиг-түвшний баатар эргэж ирсэн {angi}</div></Link>
                     })
-
                 }
-{/* to={`/gamshig/0${angi<10? `${0${angi}}`: angi}`} */}
-
             </div>
         </div>
     )

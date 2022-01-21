@@ -31,7 +31,7 @@ body{
  display: flex;
 }
 .biy{
-  height: 100vh;
+  height: 110vh;
   width: 1100px;
   background-color: white;
 }
@@ -39,12 +39,16 @@ body{
   font-size: 25px;
   color: rgb(99, 99, 221);
 }
+.usegb{
+  font-size: 25px;
+  color: gray;
+}
 .headerbody{
-  width: 100vw;
+  width: 1100px;
   height: 100px;
   flex-direction: row;
-  background-color: rgb(166, 166, 166);
-  border-radius: 25px;
+  background-color: aliceblue;
+  border-radius: 7px;
   display: flex;
   justify-content: space-around;
 }
@@ -65,6 +69,9 @@ body{
   height: 450px;
   border-radius:2.5px;
 }
+.big{
+    font-size: x-large;
+}
 .columncenter{
   display: flex;
   flex-direction: column;
@@ -73,6 +80,10 @@ body{
   margin-bottom: 20px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
+}
+.spaceg{
+  display: flex;
+  justify-content: space-around
 }
 .deedtal{
   display: flex;

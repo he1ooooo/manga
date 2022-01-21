@@ -27,11 +27,11 @@ export function BasicSelect() {
                 >
                     <MenuItem ><Link to="login" style={{
                         textDecoration: 'none',
-                        color: "blue"
+                        color: "gray"
                     }}>Нэвтрэх </Link></MenuItem>
                     <MenuItem ><Link to="sign" style={{
                         textDecoration: 'none',
-                        color: "blue"
+                        color: "gray"
                     }}  >Бүртгүүлэх</Link></MenuItem>
                 </Select>
             </FormControl>
@@ -47,7 +47,7 @@ const Header = () => {
             <div className="headerclick">
                 <Link to="/manga" style={{
                     textDecoration: 'none',
-                    color: "blue"
+                    color: "gray"
                 }}>Манга</Link>
             </div>
             <BasicSelect />
